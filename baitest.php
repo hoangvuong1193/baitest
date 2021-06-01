@@ -43,7 +43,7 @@ function cautruclaimang()
 	while($t<3*$n)
 	{
 		
-		for($i=$dem;$i<3*$n;$i+=$n)
+		for($i=$dem;$i<3*$n;$i+=3)
 		{
 			$b[$t]=$a[$i];
 			$t++;
